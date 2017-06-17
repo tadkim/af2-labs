@@ -1,0 +1,107 @@
+@charset "UTF-8";
+/* color */
+/* color : test lab */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+/*
+* 스포카 한 산스 서브셋
+* Spoqa Han Sans Subset
+*
+* SIL Open Font License 1.1
+* https://github.com/spoqa/spoqa-han-sans/blob/master/LICENSE
+*/
+@font-face {
+  font-family: 'Spoqa Han Sans Subset';
+  src: local("Spoqa Han Sans Subset"), local("SpoqaHanSansSubset"), local("스포카 한 산스 서브셋"), local(""), url("//hangul.online/static/fonts/spoqa-han-sans-subset/Spoqa-Han-Sans-Thin.woff") format("woff"), url("//hangul.online/static/fonts/spoqa-han-sans-subset/Spoqa-Han-Sans-Thin.ttf") format("truetype"), url("//hangul.online/static/fonts/spoqa-han-sans-subset/Spoqa-Han-Sans-Thin.svg") format("svg"), url("//hangul.online/static/fonts/spoqa-han-sans-subset/Spoqa-Han-Sans-Thin.eot") format("eot");
+  font-weight: 100;
+  font-style: normal; }
+@font-face {
+  font-family: 'Spoqa Han Sans Subset';
+  src: local("Spoqa Han Sans Subset"), local("SpoqaHanSansSubset"), local("스포카 한 산스 서브셋"), local(""), url("//hangul.online/static/fonts/spoqa-han-sans-subset/Spoqa-Han-Sans-Regular.woff") format("woff"), url("//hangul.online/static/fonts/spoqa-han-sans-subset/Spoqa-Han-Sans-Regular.ttf") format("truetype"), url("//hangul.online/static/fonts/spoqa-han-sans-subset/Spoqa-Han-Sans-Regular.svg") format("svg"), url("//hangul.online/static/fonts/spoqa-han-sans-subset/Spoqa-Han-Sans-Regular.eot") format("eot");
+  font-weight: 400;
+  font-style: normal; }
+@font-face {
+  font-family: 'Spoqa Han Sans Subset';
+  src: local("Spoqa Han Sans Subset"), local("SpoqaHanSansSubset"), local("스포카 한 산스 서브셋"), local(""), url("//hangul.online/static/fonts/spoqa-han-sans-subset/Spoqa-Han-Sans-Subset-Bold.woff") format("woff"), url("//hangul.online/static/fonts/spoqa-han-sans-subset/Spoqa-Han-Sans-Subset-Bold.ttf") format("truetype"), url("//hangul.online/static/fonts/spoqa-han-sans-subset/Spoqa-Han-Sans-Subset-Bold.svg") format("svg"), url("//hangul.online/static/fonts/spoqa-han-sans-subset/Spoqa-Han-Sans-Subset-Bold.eot") format("eot");
+  font-weight: 700;
+  font-style: normal; }
+.spoqa-han-sans-subset {
+  font-family: 'Spoqa Han Sans Subset', sans-serif; }
+
+/* grid */
+header {
+  width: 100%;
+  height: auto;
+  background-color: rgba(236, 236, 236, 0.5); }
+
+#wrap {
+  width: 960px;
+  height: auto;
+  margin: 100px auto; }
+  #wrap .content {
+    width: 100%;
+    height: auto;
+    margin: 10px auto; }
+
+footer {
+  background-color: rgba(236, 236, 236, 0.5);
+  width: 100%;
+  height: auto;
+  left: 0;
+  bottom: 0; }
+
+.container {
+  width: 100%;
+  height: auto;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
+  .container p {
+    width: 70%;
+    height: auto;
+    letter-spacing: -.5;
+    font-family: "Spoqa Han Sans Subset", sans-serif;
+    font-weight: 100;
+    font-size: 8.3rem; }
+    .container p:last-of-type {
+      margin-bottom: 100px; }
+
+/*# sourceMappingURL=l1-start.component.css.map */

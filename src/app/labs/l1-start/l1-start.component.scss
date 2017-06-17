@@ -1,0 +1,19 @@
+@import 'assets/scss/global';
+
+.container {
+
+    @include size(100%, auto);
+    @include testShadow();
+    p {
+        @include size(70%, auto);
+        letter-spacing:-.5;
+        font-family: $font-sans;
+        font-weight: 100;
+        font-size: 8.3rem;
+
+        &:last-of-type {
+            margin-bottom: 100px;
+        }
+    }
+    
+}
